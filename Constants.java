@@ -14,7 +14,7 @@ public Interface Constants
 	public static final int powerupHeight = 50;
 	public static final int laserWidth = 20;
 	public static final int laserHeight = 100;
-	public static final String playerImage = "player.jpg";
+	public static final String playerImage = "player.png";
 	public static final String enemyImage = "enemy.jpg";
 	public static final String powerupImage = "powerup.jpg";
 	public static final String laserImage = "laser.jpg";
