@@ -94,7 +94,7 @@ Will be completed by: Rohan Mishra
 *************************************************************************************/
 	public boolean hit(Object a, Object b)
 	{
-		if distance(a.getXval(), a.getYval(), b.getXval(), b.getYval())
+		if (distance(a.getXval(), a.getYval(), b.getXval(), b.getYval()))
 			boolean collide = true;
 		return collide;
 	}
