@@ -23,9 +23,10 @@ public Panel()
 		myBuffer = myImage.getGraphics();
 		myBuffer.setColor(Color.gray);
 		myBuffer.fillRect(0, 0, boardWidth, boardHeight);
-		player = new Player((boardWidth/2), (boardHeight - 100), playerImage);
+		ImageIcon playerimg = new ImageIcon(playerImage);
+		player = new Player((boardWidth/2), (boardHeight - 100), playerimg);
 		
-		t1 = new Timer(5, new Listener());
+		Timer t1 = new Timer(5, new Listener());
 		t1.start();
 		addKeyListener(new Key());
 		setFocusable(true);
