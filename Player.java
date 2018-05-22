@@ -12,7 +12,7 @@ Will be completed by: Rohan Mishra
 ******************************************************************************/
 public Player()
 {
-	super((boardWidth/2), (boardHeight-100), 1, 0, "player.jpg");
+	super((boardWidth/2), (boardHeight-100), 1, 0, null);
 }
 
 /******************************************************************************
@@ -24,20 +24,20 @@ Will be completed by: Rohan Mishra
 ******************************************************************************/
 public Player(int x, int y, ImageIcon img)
 	{
-		super(x, y, img);
+		super(x, y, 0, 0, img);
 	}
 	
 /******************************************************************************
 Determines how the player will move based on keyboard inputs
 Will be completed by: Rohan Mishra
 ******************************************************************************/
-	public void movement()
-	{
-		setX(getX() + dx);
-		setY(getY() + dy);
-if (getX() < 0)
-dx = 0;
-if (getX() > (boardWidth - playerWidth))
-dx = 0;		
-	}
-}
+// 	public void movement()
+// 	{
+// 		setX(getX() + dx);
+// 		setY(getY() + dy);
+// if (getX() < 0)
+// dx = 0;
+// if (getX() > (boardWidth - playerWidth))
+// dx = 0;		
+// 	}
+// }
