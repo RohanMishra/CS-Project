@@ -93,9 +93,9 @@ collision and something is done. Returns a boolean with either true or false
 @return collide	Returns the boolean
 Will be completed by: Rohan Mishra
 *************************************************************************************/
-	public boolean hit(Object a, Object b)
+	public boolean hit(Common a, Common b)
 	{
-		if (distance(a.getXval(), a.getYval(), b.getXval(), b.getYval()))
+		if (distance(a.getXval(), a.getYval(), b.getXval(), b.getYval()) <= 0)
 			boolean collide = true;
 		return collide;
 	}
