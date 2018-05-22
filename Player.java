@@ -12,7 +12,7 @@ Will be completed by: Rohan Mishra
 ******************************************************************************/
 public Player()
 {
-	super((boardWidth/2), (boardHeight-100), 1, 0, “player.jpg”);
+	super((boardWidth/2), (boardHeight-100), 1, 0, "player.jpg");
 }
 
 /******************************************************************************
